@@ -28,7 +28,14 @@ new_conv1.special_users_settings = {
     3221014: 6,
     22547300: 6,
     169872027: 6,
-    12797538: 6
+    12797538: 6,
+    625059538: 6,
+    556442186: 6,
+    102636113: 6,
+    279518145: 6,
+    657899465: 6,
+    38487444: 6,
+    358678477: 6
 }  # Зоошизы
 
 new_conv2 = Conversation()
@@ -58,10 +65,17 @@ new_conv5.id = 38947818
 new_conv5.group_id = 494898
 new_conv5.days_for_cleaning = 60
 
+new_conv6 = Conversation()
+new_conv6.name = 'Реклама'
+new_conv6.id = 30606622
+new_conv6.group_id = 494898
+new_conv6.days_for_cleaning = 60
+
 conversations = [
     new_conv1,
     new_conv2,
     new_conv3,
     new_conv4,
     new_conv5,
+    new_conv6,
 ]
