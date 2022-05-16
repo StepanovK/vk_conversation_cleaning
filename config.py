@@ -1,8 +1,14 @@
 import os
+from environs import Env
 
 from conversations import Conversation
 
-token_group = "525ea09babd8d70e3ab77d4898cd31782a6e2e405ed2a8be17f3d838e7ea5eee75705e478cc9eae84c0be"
+
+env = Env()
+env.read_env()
+
+
+token_group = env.str("token_group")
 admin_id = int(os.getenv("vk_admin_id"))
 admin_phone = os.getenv("vk_admin_phone")
 admin_pass = os.getenv("vk_admin_pass")
