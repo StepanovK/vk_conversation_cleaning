@@ -8,6 +8,7 @@ def clean():
     vk.auth()
     vk = vk.get_api()
 
+    # print('Чистка')
     time_now = datetime.datetime.today()
     all_boards = vk.board
     for conv in config.conversations:
