@@ -3,10 +3,8 @@ from environs import Env
 
 from conversations import Conversation
 
-
 env = Env()
 env.read_env()
-
 
 token_group = env.str("token_group")
 admin_id = int(os.getenv("vk_admin_id"))
@@ -20,6 +18,7 @@ new_conv1.group_id = 494898
 new_conv1.days_for_cleaning = 30
 new_conv1.special_users_settings = {
     102636113: 6,
+    118659499: 6,
     12797538: 6,
     148107170: 6,
     156852152: 6,
@@ -45,7 +44,7 @@ new_conv1.special_users_settings = {
     544380880: 6,
     556442186: 6,
     625059538: 6,
-    657899465: 6
+    657899465: 6,
 }  # Зоошизы
 
 new_conv2 = Conversation()
