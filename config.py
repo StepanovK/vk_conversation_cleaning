@@ -45,7 +45,7 @@ new_conv1.special_users_settings = {
     556442186: 6,
     625059538: 6,
     657899465: 6,
-}  # Зоошизы
+}  # Пристройщики животных
 
 new_conv2 = Conversation()
 new_conv2.name = 'Детская барахолка'
